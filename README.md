@@ -180,12 +180,7 @@ MIT License
 
 ## 📧 联系方式
 
-- 项目负责人：你的名字
-- 邮箱：your.email@example.com
-- GitHub：[@你的用户名](https://github.com/你的用户名)
-
----
-
-## 🙏 致谢
-
-感谢河南工程学院计算机学院的支持。
+- 项目负责人：李思成
+- 成员：程威、张雨豪
+- 邮箱：3324567099@qq.com
+- GitHub：[@lihuikong](https://github.com/lihuikong)
