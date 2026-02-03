@@ -6,7 +6,8 @@ cap = cv2.VideoCapture(0)
 
 while cap.isOpened():
     success, frame = cap.read()
-    if not success: break
+    if not success:
+        break
 
     # 调用封装好的接口
     annotated_frame, info, dt = detector.detect_and_track(frame)
@@ -16,6 +17,7 @@ while cap.isOpened():
         print(f"追踪中: {info[0]['id']} 坐标: {info[0]['center']}")
 
     cv2.imshow("Scientist_Perception", annotated_frame)
-    if cv2.waitKey(1) & 0xFF == ord('q'): break
+    if cv2.waitKey(1) & 0xFF == ord("q"):
+        break
 
 cap.release()
